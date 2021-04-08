@@ -10,8 +10,8 @@
 {
     background-color: grey;
     
-    height: 52px;
-    width: 1280px;
+    height: auto;
+    width: auto;
 
     box-shadow: 0 5px 10px black;
     text-transform: uppercase;
@@ -44,6 +44,7 @@ li a{
     padding: 20px; 
     width: 500px;
     height: 250px;  
+    border-collapse: collapse;
   }
   a.btn-first
 {
@@ -62,10 +63,12 @@ li a{
     padding: 10px;
     color: black;
     font-size: 20px;
+    border-collapse: collapse;
 }
 .background
 {
     background-color: cornsilk;
-    width: 1280px;
+    width: auto;
     height: 550px;
+    border-collapse: collapse;
 }

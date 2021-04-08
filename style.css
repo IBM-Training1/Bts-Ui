@@ -10,8 +10,8 @@
 {
     background-color: grey;
     
-    height: 52px;
-    width: 1280px;
+    height: auto;
+    width: auto;
 
     box-shadow: 0 5px 10px black;
     text-transform: uppercase;
@@ -68,4 +68,5 @@ color: black;
 {
     background-color: cornsilk;
     width: 1270px;
+    height: auto;
 }
