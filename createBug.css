@@ -40,8 +40,8 @@ li a{
     color: grey;
     font-size: 20px;
     background-color: cornsilk;
-    width: 1270px;
-    height: 700px;
+    width: auto;
+    height: auto;
     
 }
 a.btn-first

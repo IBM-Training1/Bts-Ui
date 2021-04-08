@@ -28,3 +28,69 @@ li a{
 {
     background: darkorange;
 }
+.table
+{
+    border: white;
+    width: 30%;
+    padding: 8px;
+    color: black;
+    font-size: 12px;
+}
+.center {
+    margin: auto;
+    width: 60%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+    color:black;
+    font-size: 20px;
+    
+  }
+  #box {
+    background-color: rgb(241, 237, 237);
+    border-radius: 25px;
+    border: 2px solid black;
+    padding: 20px; 
+    width: 300px;
+    height: 180px;  
+  }
+  a.btn-first
+{
+    
+    border-radius: 20px;
+    background-color: darkorange;
+    color: black;
+    margin: auto;
+    width: 30%;
+    padding: 8px;
+}
+#bugs {
+    margin: auto;
+    width: 80%;
+    border: 3px solid black;
+    padding: 10px;
+    color:black;
+    font-size: 20px;
+  }
+  
+  #bugs td, #bugs th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #bugs tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #bugs tr:hover {background-color: #ddd;}
+  
+  #bugs th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color:grey;
+    color: white;
+  }
+  .background
+  {
+    background-color: cornsilk;
+    width: auto;
+    height: 530px;
+  }

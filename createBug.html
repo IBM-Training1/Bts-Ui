@@ -38,31 +38,16 @@
         <p class="para1">Create Bug</p>
         <table class="table">
             <tr>
-                <td>Name:</td>
+                <td>Name</td>
                 <td><input type="text" id="name"></td>
-            </tr>
-            <tr>
-                <td>ProjectId:</td>
+                <td>ProjectId</td>
                 <td><input type="text"></td>
+                
             </tr>
             <tr>
-                <td>Module:</td>
+                <td>Module</td>
                 <td><input type="text"></td>
-            </tr>
-            <tr>
-                <td>Product:</td>
-                <td><input type="text"></td>
-            </tr>
-            <tr>
-                <td>Synopsis:</td>
-                <td><input type="text"></td>
-            </tr>
-            <tr>
-                <td>Description:</td>
-                <td><input type="text"></td>
-            </tr>
-            <tr>
-                <td>Type:</td>
+                <td>Type</td>
                 <td><select name="Priority" id="Priority">
                         <option>Choose value</option>
                         <option value="RUNTIME_ERROR">RUNTIME_ERROR</option>
@@ -72,31 +57,38 @@
                     </select></td>
             </tr>
             <tr>
-                <td>Status:</td>
+                <td>Products</td>
+                <td><input type="text"></td>
+                <td>Status</td>
                 <td><select name="Status" id="Status">
-                        <option>Choose value</option>
-                        <option value="NEW">NEW</option>
-                        <option value="OPEN">OPEN</option>
-                        <option value="FIXED">FIXED</option>
-                        <option value="ASSIGNED">ASSIGNED</option>
-                        <option value="PENDING_REQUEST">PENDING_REQUEST</option>
-                        <option value="RETEST">RETEST</option>
-                        <option value="REOPEN">REOPEN</option>
-                        <Option value="CLOSED">CLOSED</Option>
-                        <option value="VERIFIED">VERIFIED</option>
-                    </select></td>
+                    <option>Choose value</option>
+                    <option value="NEW">NEW</option>
+                    <option value="OPEN">OPEN</option>
+                    <option value="FIXED">FIXED</option>
+                    <option value="ASSIGNED">ASSIGNED</option>
+                    <option value="PENDING_REQUEST">PENDING_REQUEST</option>
+                    <option value="RETEST">RETEST</option>
+                    <option value="REOPEN">REOPEN</option>
+                    <Option value="CLOSED">CLOSED</Option>
+                    <option value="VERIFIED">VERIFIED</option>
+                </select></td>
+                
             </tr>
             <tr>
-                <td>Severity:</td>
+                <td>Synopsis</td>
+                <td><input type="text"></td>
+                <td>Severity</td>
                 <td><select name="Priority" id="Priority">
-                        <option>Choose value</option>
-                        <option value="SEVERE">HIGH</option>
-                        <option value="MILD">MILD</option>
-                        <option value="LOW">LOW</option>
-                    </select></td>
+                    <option>Choose value</option>
+                    <option value="SEVERE">HIGH</option>
+                    <option value="MILD">MILD</option>
+                    <option value="LOW">LOW</option>
+                </select></td>
             </tr>
             <tr>
-                <td>Priority:</td>
+                <td>Description</td>
+                <td><input type="text"></td>
+                <td>Priority</td>
                 <td><select name="Priority" id="Priority">
                         <option>Choose value</option>
                         <option value="HIGH">HIGH</option>
@@ -104,7 +96,15 @@
                         <option value="LOW">LOW</option>
                     </select></td>
             </tr>
+            <tr>
+                <td>Submitted On</td>
+                <td><input type="date"></td>
+                <td></td>
+                <td><a class="btn btn-first" href="#">Create Bug</a></td>
+                
+                
+            </tr>
         </table>
-        <a class="btn btn-first" href="#">Create Bug</a>
+        
     </div>
 </body>
