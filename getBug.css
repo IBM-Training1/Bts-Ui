@@ -63,6 +63,9 @@ li a{
     width: 30%;
     padding: 8px;
 }
+a.btn-first:hover {
+  background-color: #09e639;
+}
 #bugs {
     margin: auto;
     width: 80%;

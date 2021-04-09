@@ -49,11 +49,16 @@ a.btn
     padding: 10px;
     border-radius: 20px;
 }
+a.btn:hover {
+    background-color: #09e639;
+}
 a.btn-first
 {
 background-color: darkorange;
 color: black;
+
 }
+
 a.btn-second
 {
 background-color: darkorange;

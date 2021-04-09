@@ -56,6 +56,9 @@ li a{
     width: 40%;
     padding: 10px;
 }
+a.btn-first:hover {
+    background-color: #09e639;
+}
 .table
 {
     border: white;
